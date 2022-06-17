@@ -14,6 +14,6 @@ class Game{
         string lead_team;
     public:
         Game(const Team&, const Team&);
-        Game(Game);
+        Game(const Game&);
         string win();
 };

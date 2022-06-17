@@ -9,5 +9,5 @@ class Team{
         int skill;
     public:
         Team(string, int);
-        Team(Team);
+        Team(const Team&);
 };

@@ -5,12 +5,13 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-const int NUMBERS_OF_TEAMS
-class League{
+const int NUMBERS_OF_TEAMS = 20;
+class Leauge{
     private:
-        vector<const Team&> teams:(NUMBERS_OF_TEAMS){};
+        vector<const Team*> teams;
     public:
-        League(vector<const Team&>);
-        League();
+        Leauge() : teams(NUMBERS_OF_TEAMS){};
+        Leauge(vector<const Team*>);
+        // Leauge();
 
 };
